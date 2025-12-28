@@ -1,0 +1,94 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 20px;
+  height: 100%;
+}
+
+.column {
+  background: #f4f5f7;
+  padding: 12px;
+  width: 350px;
+  border-radius: 8px;
+  min-height: 300px;
+}
+
+.column h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.add-task {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.add-task input {
+  flex: 1;
+  padding: 6px;
+}
+
+.card {
+  background: white;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  cursor: grab;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: red;
+}
+
+.column {
+  background: #f4f5f7;
+  padding: 15px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.task {
+  background: #fff;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: grab;
+}
+
+.task:hover {
+  background: #f0f0f0;
+}
+
+.actions button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin-left: 6px;
+  font-size: 16px;
+}
+
+.add-task {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.add-task input {
+  flex: 1;
+  padding: 6px;
+}
+
+.edit-input {
+  width: 100%;
+  padding: 5px;
+}
