@@ -21,6 +21,17 @@ Drag and drop operation is working like click and drag and drop inside another c
 
 #backEnd
 
+##  Database Setup
+
+```sql
+CREATE DATABASE trello_db;
+
+CREATE TABLE tasks (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(255),
+    status VARCHAR(50)
+);
+
 backend is done on java 8 and springBoot 2.7.18
 Backend the Project structure is not like as you have mentioned in the Assignment
 Rest api are used to handle the CRUD operations
